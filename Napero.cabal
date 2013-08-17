@@ -1,0 +1,14 @@
+name:                Napero
+version:             0.1.0.0
+synopsis:            Haskell helpers for kids
+license:             MIT
+license-file:        LICENSE
+author:              Juha Paananen
+maintainer:          juha.paananen@gmail.com
+category:            Learning
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     Napero  
+  build-depends:       base ==4.5.*, process==1.1.*
