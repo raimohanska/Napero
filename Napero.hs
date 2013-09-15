@@ -9,4 +9,5 @@ say x = do
 p = putStrLn
 i = getLine
 w delay = threadDelay $ delay * 1000000
-
+s xs = sequence xs
+m a = mapM_ a
