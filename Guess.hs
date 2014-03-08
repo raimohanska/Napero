@@ -7,7 +7,6 @@ main = do
   number <- rnd 3
   guess number
 
-guess :: Int -> IO ()
 guess number = do
   answerText <- i
   let answerNum = int answerText
