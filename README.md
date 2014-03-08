@@ -1,7 +1,7 @@
 Some helpers for fun Haskell programming with kids.
 
 | example            | explanation |
-|====================|=============|
+|--------------------|-------------|
 | say "lol"          | says "lol" aloud (uses the command line say) |
 | p "lol"            | prints "lol" as text |
 | i                  | reads a line of input from the user |
