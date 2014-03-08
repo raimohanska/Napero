@@ -13,3 +13,5 @@ w delay = threadDelay $ delay * 1000000
 s xs = sequence xs
 m a = mapM_ a
 rnd n = randomIO >>= return . (+1) . (`mod` n)
+int :: String -> Int
+int str = read str
