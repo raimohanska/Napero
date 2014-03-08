@@ -8,3 +8,5 @@ Some helpers for fun Haskell programming with kids.
 | w 1                | waits one second |
 | s [w 1, say "lol"] | run commands sequentially |
 | rnd 4              | generates random number between 1 and 4 |
+
+Have a look at the [Guess](https://github.com/raimohanska/Napero/blob/master/Guess.hs) example program. You can run it with `runhaskell Guess.hs`.
